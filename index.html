@@ -25,16 +25,6 @@
         .text-capri-blue { color: #005A9E; }
         .border-capri-blue { border-color: #005A9E; }
         .ring-capri-blue { --tw-ring-color: #005A9E; }
-        /* Estilo para a aba ativa */
-        .tab-active {
-            background-color: #005A9E;
-            color: white;
-        }
-        /* Estilo para a aba inativa */
-        .tab-inactive {
-            background-color: #e0e7ff;
-            color: #4338ca;
-        }
         .highlight-box {
             background-color: #eff6ff; /* blue-50 */
             border-left: 4px solid #3b82f6; /* blue-500 */
@@ -51,6 +41,7 @@
             </div>
             <div class="hidden md:flex items-center space-x-6">
                 <a href="#problema-nr1" class="text-gray-600 hover:text-capri-blue transition duration-300">Obrigação NR1</a>
+                <a href="#porque-capri" class="text-gray-600 hover:text-capri-blue transition duration-300">A Capri</a>
                 <a href="#solucoes" class="text-gray-600 hover:text-capri-blue transition duration-300">Soluções</a>
                 <a href="#depoimentos" class="text-gray-600 hover:text-capri-blue transition duration-300">Clientes</a>
                 <a href="#contato" class="bg-capri-blue text-white px-5 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition duration-300">Fale com um Especialista</a>
@@ -68,10 +59,10 @@
         <section class="bg-white">
             <div class="container mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28 text-center">
                 <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
-                    Cumpra a NR1 e blinde sua empresa com nossas soluções em <span class="text-capri-blue">Saúde e Vida.</span>
+                    Transforme Benefícios em <br class="hidden md:block"> <span class="text-capri-blue">Vantagem Competitiva.</span>
                 </h1>
                 <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-                    O plano de saúde que elimina sua burocracia com PGR/PCMSO e o seguro de vida que garante a segurança do seu time. Fale com quem é especialista em seguros para empresas.
+                    Proteja sua equipe, simplifique a gestão da NR1 e fortaleça seus resultados com a ajuda de quem é especialista em seguros para empresas há mais de 35 anos.
                 </p>
                 <div class="mt-10">
                     <a href="https://bit.ly/4jF7wNv" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-green-500 text-white font-bold px-8 py-4 rounded-lg hover:bg-green-600 transition duration-300 shadow-lg inline-flex items-center justify-center gap-2">
@@ -109,39 +100,52 @@
                 </div>
             </div>
         </section>
-
+        
+        <!-- Seção de Credibilidade da Capri -->
+        <section id="porque-capri" class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6 text-center">
+                 <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Por que escolher a Capri Corretora?</h2>
+                 <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
+                    Não vendemos apólices, entregamos tranquilidade. Entendemos os desafios do seu negócio e atuamos como parceiros estratégicos para encontrar a solução ideal.
+                 </p>
+                 <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                     <!-- Card Tradição -->
+                     <div class="bg-white p-6 rounded-lg shadow-sm">
+                         <h3 class="font-bold text-lg text-capri-blue">Tradição e Experiência</h3>
+                         <p class="mt-2 text-gray-600">Há mais de 35 anos no mercado, oferecendo solidez e conhecimento profundo em seguros para empresas.</p>
+                     </div>
+                     <!-- Card Assessoria -->
+                     <div class="bg-white p-6 rounded-lg shadow-sm">
+                         <h3 class="font-bold text-lg text-capri-blue">Assessoria Especializada</h3>
+                         <p class="mt-2 text-gray-600">Nossa equipa é altamente qualificada para analisar o seu cenário e recomendar a solução com o melhor custo-benefício.</p>
+                     </div>
+                     <!-- Card Atendimento -->
+                      <div class="bg-white p-6 rounded-lg shadow-sm">
+                         <h3 class="font-bold text-lg text-capri-blue">Atendimento Personalizado</h3>
+                         <p class="mt-2 text-gray-600">Aqui, cada cliente é único. Oferecemos um atendimento dedicado e próximo para garantir a sua total satisfação.</p>
+                     </div>
+                 </div>
+                 <div class="mt-12 bg-white p-8 rounded-lg shadow-lg max-w-sm mx-auto">
+                    <p class="text-xl text-gray-600">Índice de Satisfação (NPS)</p>
+                    <p class="text-7xl font-extrabold text-green-500 mt-2">98%</p>
+                    <p class="text-sm text-gray-500 mt-2">de aprovação entre nossos clientes.</p>
+                 </div>
+            </div>
+        </section>
 
         <!-- Soluções Estratégicas Section -->
         <section id="solucoes" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16">
-                     <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">A Parceria Estratégica que sua Empresa Precisa</h2>
-                     <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Temos a ferramenta certa para proteger seu time e fortalecer seu negócio.</p>
+                     <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Nossas Soluções Estratégicas</h2>
                 </div>
                 
                 <!-- Solução 1: Seguro de Vida com Imagem -->
                 <div class="grid md:grid-cols-2 gap-8 lg:gap-16 items-center mb-20">
                     <div class="order-2 md:order-1">
                         <h3 class="text-2xl font-bold text-gray-900">Seguro de Vida Flexível</h3>
-                        <p class="mt-4 text-gray-600">Proteção financeira e assistências que garantem o bem-estar do time e a tranquilidade para a empresa, mesmo em momentos difíceis. Mais que uma apólice, uma ferramenta de gestão que protege pessoas e resultados.</p>
-                        <div class="mt-6">
-                            <h4 class="font-bold text-capri-blue">Principais Vantagens:</h4>
-                            <ul class="mt-2 space-y-2 text-gray-600">
-                                <li class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                                    <span>Renda garantida para colaboradores afastados (DIT).</span>
-                                </li>
-                                <li class="flex items-center gap-3">
-                                     <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                                    <span>Acesso rápido a médicos e psicólogos via Telemedicina.</span>
-                                </li>
-                                <li class="flex items-center gap-3">
-                                     <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                                    <span>Amparo financeiro em caso de doenças graves.</span>
-                                </li>
-                            </ul>
-                        </div>
-                         <a href="#seguro-vida-details" class="inline-block mt-8 bg-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-300 transition duration-300">Ver todas as coberturas &rarr;</a>
+                        <p class="mt-4 text-gray-600">Proteção financeira e assistências que garantem o bem-estar do time e a tranquilidade para a empresa, mesmo em momentos difíceis.</p>
+                        <a href="#seguro-vida-details" class="inline-block mt-8 bg-gray-200 text-gray-800 font-semibold px-6 py-3 rounded-lg hover:bg-gray-300 transition duration-300">Ver todas as coberturas &rarr;</a>
                     </div>
                     <div class="order-1 md:order-2">
                         <img src="imagem-familia.png" alt="Imagem de uma família feliz e segura" class="rounded-xl shadow-lg w-full h-auto object-cover">
@@ -154,25 +158,12 @@
                         <img src="imagem-telemedicina.png" alt="Pessoa utilizando serviços de telemedicina" class="rounded-xl shadow-lg w-full h-auto object-cover">
                     </div>
                     <div>
-                        <h3 class="text-2xl font-bold text-gray-900">Plano de Saúde Porto (Solução 360°)</h3>
-                        <p class="mt-4 text-gray-600">A plataforma de saúde que <strong>resolve a burocracia da NR1 por você</strong>, incluindo, sem custo adicional, Seguro Odonto e Vida.</p>
-                        <div class="mt-6">
-                            <h4 class="font-bold text-capri-blue">Diferenciais Inclusos:</h4>
-                             <ul class="mt-2 space-y-2 text-gray-600">
-                                <li class="flex items-center gap-3">
-                                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                                    <span>Gestão de Saúde Ocupacional (PGR e PCMSO).</span>
-                                </li>
-                                <li class="flex items-center gap-3">
-                                     <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                                    <span>Seguro Odontológico completo.</span>
-                                </li>
-                                <li class="flex items-center gap-3">
-                                     <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                                    <span>Seguro de Vida com assistências.</span>
-                                </li>
-                            </ul>
+                        <div class="flex items-center gap-4 mb-4">
+                            <span class="text-sm text-gray-500">Em parceria com:</span>
+                            <img src="Logo Porto.png" alt="Logo Porto Seguro" class="h-8">
                         </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Plano de Saúde Porto (Proteção Turbinada)</h3>
+                        <p class="mt-4 text-gray-600">A plataforma de saúde que <strong>resolve a burocracia da NR1 por você</strong>, incluindo, sem custo adicional, Seguro Odonto e Vida.</p>
                         <a href="#plano-saude-details" class="inline-block mt-8 bg-capri-blue text-white font-semibold px-6 py-3 rounded-lg hover:bg-opacity-90 transition duration-300">Ver detalhes da solução &rarr;</a>
                     </div>
                 </div>
@@ -190,7 +181,7 @@
                 <div class="mt-12 grid md:grid-cols-2 gap-8">
                     <div class="bg-white p-8 rounded-lg shadow-md">
                         <p class="text-gray-600 italic">"O atendimento da Capri foi um divisor de águas. Eles entenderam nossa necessidade e resolveram toda a parte burocrática da NR1 com o plano de saúde. Recomendo demais!"</p>
-                        <p class="mt-4 font-bold text-capri-blue text-right">- José Maria, Diretor na Empresa K. </p>
+                        <p class="mt-4 font-bold text-capri-blue text-right">- João Silva, Diretor na Empresa ABC</p>
                     </div>
                     <div class="bg-white p-8 rounded-lg shadow-md">
                         <p class="text-gray-600 italic">"Paula, muito obrigado! O seguro de vida para a equipe ficou excelente, todos adoraram as assistências. Processo super rápido e sem complicação. Vocês são feras!"</p>
@@ -199,34 +190,16 @@
                 </div>
             </div>
         </section>
-        
-        <!-- Seção Especialista Capri -->
-        <section id="especialista" class="py-16 md:py-24 bg-white">
-            <div class="container mx-auto px-6 text-center">
-                 <img src="Logo Capri_v1.png" alt="Logo Capri Corretora de Seguros" class="h-16 mx-auto mb-6">
-                 <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Sua Especialista em Seguros Empresariais</h2>
-                 <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                    Na Capri Corretora, não apenas vendemos seguros; nós entregamos tranquilidade. Entendemos os desafios do seu negócio e atuamos como parceiros estratégicos para encontrar a solução perfeita que blinda sua empresa e cuida do seu time. Deixe a burocracia conosco e foque no que você faz de melhor: crescer.
-                 </p>
-                 <div class="mt-8">
-                     <a href="https://bit.ly/4jF7wNv" target="_blank" rel="noopener noreferrer" class="bg-capri-blue text-white font-bold px-10 py-4 rounded-lg hover:bg-opacity-90 transition duration-300 shadow-xl text-lg">
-                        Fale com um Especialista
-                    </a>
-                 </div>
-            </div>
-        </section>
 
         <!-- Seção Detalhada: Seguro de Vida -->
-        <section id="seguro-vida-details" class="py-16 md:py-24 bg-gray-100">
+        <section id="seguro-vida-details" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center">
                     <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Detalhes do Seguro de Vida Flexível</h2>
-                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Mais que uma apólice, uma ferramenta de gestão que protege pessoas e resultados.</p>
                 </div>
-
                 <div class="mt-12 grid md:grid-cols-2 gap-x-10 gap-y-8 max-w-5xl mx-auto">
-                    <div class="bg-white p-6 rounded-lg shadow-sm">
-                        <h3 class="text-xl font-bold text-capri-blue mb-4">Coberturas que Geram Segurança</h3>
+                    <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-capri-blue mb-4">Coberturas Essenciais e Adicionais</h3>
                         <ul class="space-y-4 text-gray-700">
                             <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
@@ -238,40 +211,36 @@
                             </li>
                             <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Diárias por Incapacidade Temporária (DIT):</strong> Garante a renda do colaborador afastado por acidente ou doença, permitindo uma recuperação sem estresse financeiro.</div>
+                                <div><strong>Diárias por Incapacidade Temporária (DIT):</strong> Garante a renda do colaborador afastado por acidente ou doença.</div>
                             </li>
                             <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Doenças Graves:</strong> Um capital para custear o tratamento, dando tranquilidade para o funcionário focar 100% na sua saúde.</div>
+                                <div><strong>Doenças Graves:</strong> Um capital para custear o tratamento, dando tranquilidade para o funcionário focar na sua saúde.</div>
                             </li>
                             <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Despesas Médicas e Hospitalares por Acidente:</strong> Reembolso de custos médicos para que um imprevisto não vire uma dívida.</div>
-                            </li>
-                            <li class="flex items-start">
-                                <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Nascimento de Filhos:</strong> Um suporte financeiro bem-vindo para celebrar a chegada de um novo membro na família do colaborador.</div>
+                                <div><strong>Despesas Médicas por Acidente:</strong> Reembolso de custos médicos para que um imprevisto não vire uma dívida.</div>
                             </li>
                         </ul>
                     </div>
-                     <div class="bg-white p-6 rounded-lg shadow-sm">
-                        <h3 class="text-xl font-bold text-capri-blue mb-4">Assistências que Reduzem o Absenteísmo</h3>
+                     <div class="bg-gray-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-bold text-capri-blue mb-4">Assistências que Fazem a Diferença</h3>
                         <ul class="space-y-4 text-gray-700">
                             <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Assistência Funeral:</strong> Suporte e tranquilidade para a família com as despesas e a organização do funeral, evitando mais um transtorno em um momento difícil.</div>
+                                <div><strong>Assistência Funeral:</strong> Suporte e tranquilidade para a família com as despesas e a organização do funeral.</div>
                             </li>
                            <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Telemedicina 24h:</strong> Acesso rápido a médicos e psicólogos, resolvendo problemas de saúde antes que se tornem afastamentos.</div>
+                                <div><strong>Telemedicina 24h:</strong> Acesso rápido a médicos e psicólogos.</div>
                             </li>
                              <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Assistência Psicológica, Social e Nutricional:</strong> Suporte completo para o bem-estar físico e mental da equipe, aumentando a satisfação e a produtividade.</div>
+                                <div><strong>Assistência Psicológica, Social e Nutricional:</strong> Suporte completo para o bem-estar da equipe.</div>
                             </li>
                              <li class="flex items-start">
                                 <svg class="w-6 h-6 text-green-500 mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                                <div><strong>Assistência Residencial:</strong> Ajuda para problemas do dia a dia (chaveiro, eletricista), diminuindo o estresse e as preocupações pessoais dos funcionários.</div>
+                                <div><strong>Assistência Residencial:</strong> Ajuda para problemas do dia a dia (chaveiro, eletricista, etc.).</div>
                             </li>
                         </ul>
                     </div>
@@ -281,29 +250,20 @@
 
 
         <!-- Seção Detalhada: Plano de Saúde Porto -->
-        <section id="plano-saude-details" class="py-16 md:py-24">
+        <section id="plano-saude-details" class="py-16 md:py-24 bg-gray-100">
             <div class="container mx-auto px-6">
                 <div class="text-center">
-                    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Detalhes da Solução Porto 360°</h2>
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Detalhes da Solução Porto Seguro</h2>
                     <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Centralize a saúde, o bem-estar e a conformidade legal da sua empresa em um único lugar.</p>
                 </div>
 
                 <div class="mt-12 max-w-4xl mx-auto">
-                    <!-- Tabs -->
-                    <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-8" id="tabs-container">
-                        <button data-target="ocupacional" class="tab-button tab-active px-4 py-2 md:px-6 md:py-3 text-sm md:text-base font-semibold rounded-lg transition duration-300">Saúde Ocupacional</button>
-                        <button data-target="odonto" class="tab-button tab-inactive px-4 py-2 md:px-6 md:py-3 text-sm md:text-base font-semibold rounded-lg transition duration-300">Seguro Odonto</button>
-                        <button data-target="vida" class="tab-button tab-inactive px-4 py-2 md:px-6 md:py-3 text-sm md:text-base font-semibold rounded-lg transition duration-300">Seguro de Vida</button>
-                        <button data-target="saude" class="tab-button tab-inactive px-4 py-2 md:px-6 md:py-3 text-sm md:text-base font-semibold rounded-lg transition duration-300">Plano de Saúde</button>
-                    </div>
-
-                    <!-- Tab Content -->
-                    <div class="bg-white rounded-xl shadow-lg p-8 min-h-[350px]">
-                        <div id="ocupacional" class="tab-content">
+                    <div class="bg-white rounded-xl shadow-lg p-8">
+                        <div class="mb-8">
                             <div class="w-full bg-green-100 border-l-4 border-green-500 text-green-700 p-3 rounded-md mb-6">
                                <p class="font-bold">DESTAQUE: CONFORMIDADE COM NR1 E NR7 GARANTIDA</p>
                             </div>
-                            <h3 class="text-2xl font-bold text-capri-blue mb-4">Sua Empresa 100% em Dia com a Lei</h3>
+                            <h3 class="text-2xl font-bold text-capri-blue mb-4">Saúde Ocupacional</h3>
                             <p class="mb-6 text-gray-600">Adeus burocracia e custos extras com consultorias. Nós cuidamos da conformidade legal para você, sem custo adicional.</p>
                             <ul class="space-y-4">
                                 <li class="flex items-start">
@@ -320,31 +280,22 @@
                                 </li>
                             </ul>
                         </div>
-                        <div id="odonto" class="tab-content hidden">
-                            <h3 class="text-2xl font-bold text-capri-blue mb-4">Sorrisos Mais Saudáveis na sua Equipe</h3>
-                            <p class="mb-6 text-gray-600">Um benefício odontológico completo, com abrangência nacional e mais de 190 procedimentos cobertos.</p>
+                        <div class="mb-8">
+                            <h3 class="text-2xl font-bold text-capri-blue mb-4">Seguro Odonto</h3>
+                             <p class="mb-6 text-gray-600">Um benefício odontológico completo, com abrangência nacional e mais de 190 procedimentos cobertos.</p>
                              <ul class="space-y-3">
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Consultas, Restaurações e Tratamento de Gengiva.</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Tratamento de Canal, Cirurgias e Próteses (Rol ANS).</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>Odontopediatria e Documentação Ortodôntica.</li>
                             </ul>
                         </div>
-                         <div id="vida" class="tab-content hidden">
-                            <h3 class="text-2xl font-bold text-capri-blue mb-4">Tranquilidade Financeira Incluída</h3>
+                        <div class="mb-8">
+                            <h3 class="text-2xl font-bold text-capri-blue mb-4">Seguro de Vida</h3>
                             <p class="mb-6 text-gray-600">Uma proteção essencial para o colaborador e sua família em momentos de imprevisto.</p>
                              <ul class="space-y-3">
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><strong>Morte Natural ou Acidental:</strong> Capital de R$ 30.000,00.</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><strong>Invalidez por Acidente:</strong> Indenização de até R$ 30.000,00.</li>
                                 <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><strong>Assistência Funeral Titular:</strong> Cobertura de até R$ 5.000,00.</li>
-                            </ul>
-                        </div>
-                         <div id="saude" class="tab-content hidden">
-                            <h3 class="text-2xl font-bold text-capri-blue mb-4">Acesso à Saúde de Qualidade</h3>
-                             <p class="mb-6 text-gray-600">O pilar central do benefício, garantindo o acesso rápido e eficiente a uma ampla rede de saúde.</p>
-                             <ul class="space-y-3">
-                                <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><strong>Cobertura Ambulatorial Completa:</strong> Consultas e procedimentos.</li>
-                                <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><strong>Exames:</strong> Acesso a uma vasta gama de exames laboratoriais e de imagem.</li>
-                                <li class="flex items-center"><svg class="w-5 h-5 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg><strong>Obstetrícia:</strong> Acompanhamento completo para pré-natal e parto.</li>
                             </ul>
                         </div>
                     </div>
@@ -399,38 +350,7 @@
     </footer>
 
     <script>
-        // Lógica para a troca de abas (tabs)
-        const tabsContainer = document.getElementById('tabs-container');
-        const tabContents = document.querySelectorAll('.tab-content');
-        const tabButtons = document.querySelectorAll('.tab-button');
-
-        tabsContainer.addEventListener('click', (event) => {
-            const clickedButton = event.target.closest('.tab-button');
-            if (!clickedButton) return;
-
-            const targetId = clickedButton.dataset.target;
-            const targetContent = document.getElementById(targetId);
-
-            // Esconde todos os conteúdos
-            tabContents.forEach(content => {
-                content.classList.add('hidden');
-            });
-
-            // Remove a classe ativa de todos os botões
-            tabButtons.forEach(button => {
-                button.classList.remove('tab-active');
-                button.classList.add('tab-inactive');
-            });
-
-            // Mostra o conteúdo alvo
-            if (targetContent) {
-                targetContent.classList.remove('hidden');
-            }
-            
-            // Adiciona a classe ativa ao botão clicado
-            clickedButton.classList.add('tab-active');
-            clickedButton.classList.remove('tab-inactive');
-        });
+        // Script removido
     </script>
 </body>
 </html>
