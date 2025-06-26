@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capri Corretora - Soluções Estratégicas em Saúde e Vida para Empresas</title>
     
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <!-- Google Fonts: Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
+    <!-- Favicon -->
     <link rel="icon" href="Logo Capri_v1.png">
 
     <style>
@@ -26,18 +29,33 @@
             background-color: #eff6ff; /* blue-50 */
             border-left: 4px solid #3b82f6; /* blue-500 */
         }
+        /* Estilos para a timeline */
+        .timeline-item .icon {
+            background-color: #DBEAFE; /* blue-200 */
+            color: #1E3A8A; /* blue-800 */
+        }
+        /* Estilos para as abas (tabs) */
+        .tab-active {
+            background-color: #005A9E;
+            color: white;
+        }
+        .tab-inactive {
+            background-color: #e0e7ff;
+            color: #4338ca;
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
+    <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <div>
                 <img src="Logo Capri_v1.png" alt="Logo Capri Corretora de Seguros" class="h-10 md:h-12">
             </div>
             <div class="hidden md:flex items-center space-x-6">
-                <a href="#problema-nr1" class="text-gray-600 hover:text-capri-blue transition duration-300">Obrigação NR1</a>
                 <a href="#porque-capri" class="text-gray-600 hover:text-capri-blue transition duration-300">A Capri</a>
+                <a href="#nosso-metodo" class="text-gray-600 hover:text-capri-blue transition duration-300">Nosso Método</a>
                 <a href="#solucoes" class="text-gray-600 hover:text-capri-blue transition duration-300">Soluções</a>
                 <a href="#depoimentos" class="text-gray-600 hover:text-capri-blue transition duration-300">Clientes</a>
                 <a href="#contato-final" class="bg-capri-blue text-white px-5 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition duration-300">Fale com um Especialista</a>
@@ -48,8 +66,10 @@
         </nav>
     </header>
 
+    <!-- Main Content -->
     <main>
 
+        <!-- Hero Section -->
         <section class="bg-white">
             <div class="container mx-auto px-6 pt-16 pb-20 md:pt-24 md:pb-28 text-center">
                 <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 leading-tight">
@@ -67,32 +87,7 @@
             </div>
         </section>
 
-        <section id="problema-nr1" class="py-16 md:py-24">
-            <div class="container mx-auto px-6">
-                <div class="max-w-3xl mx-auto bg-white p-8 rounded-xl shadow-lg">
-                    <div class="text-center">
-                        <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900">A NR1 na Prática: O que Você, Gestor, Precisa Saber</h2>
-                    </div>
-                    <p class="mt-6 text-gray-600">
-                        A Norma Regulamentadora 1 (NR1) tornou obrigatório que **todas as empresas**, independentemente do tamanho, façam o Gerenciamento de Riscos Ocupacionais (GRO). Isso inclui os riscos à saúde física e também os psicossociais (como estresse e burnout).
-                    </p>
-                    <div class="mt-6 highlight-box p-4 rounded-md">
-                        <p class="font-semibold text-gray-800">Na prática, sua empresa precisa ter dois documentos essenciais para estar em dia:</p>
-                        <ul class="list-disc list-inside mt-2 text-gray-700 space-y-1">
-                            <li><strong>PGR (Programa de Gerenciamento de Riscos)</strong></li>
-                            <li><strong>PCMSO (Programa de Controle Médico de Saúde Ocupacional)</strong></li>
-                        </ul>
-                    </div>
-                    <p class="mt-6 text-gray-600">
-                        Ignorar essa obrigação pode gerar <strong class="text-red-600">multas pesadas e processos trabalhistas</strong>.
-                    </p>
-                    <p class="mt-4 font-bold text-lg text-center text-capri-blue">
-                        A boa notícia? Fazer isso da forma certa transforma um custo em investimento, tornando sua empresa mais segura, produtiva e atraente.
-                    </p>
-                </div>
-            </div>
-        </section>
-        
+        <!-- Seção de Credibilidade da Capri -->
         <section id="porque-capri" class="py-16 md:py-24 bg-gray-100">
             <div class="container mx-auto px-6 text-center">
                  <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Por que escolher a Capri Corretora?</h2>
@@ -108,25 +103,71 @@
                          <h3 class="font-bold text-lg text-capri-blue">Assessoria Especializada</h3>
                          <p class="mt-2 text-gray-600">Nossa equipa é altamente qualificada para analisar o seu cenário e recomendar a solução com o melhor custo-benefício.</p>
                      </div>
-                     <div class="bg-white p-6 rounded-lg shadow-sm">
+                      <div class="bg-white p-6 rounded-lg shadow-sm">
                          <h3 class="font-bold text-lg text-capri-blue">Atendimento Personalizado</h3>
                          <p class="mt-2 text-gray-600">Com um NPS de 98%, nosso foco é garantir a sua total satisfação com um atendimento dedicado e próximo.</p>
                      </div>
                  </div>
-                 <div class="mt-12 bg-white p-8 rounded-lg shadow-lg max-w-sm mx-auto">
-                    <p class="text-xl text-gray-600">Índice de Satisfação (NPS)</p>
-                    <p class="text-7xl font-extrabold text-green-500 mt-2">98%</p>
-                    <p class="text-sm text-gray-500 mt-2">de aprovação entre nossos clientes.</p>
-                 </div>
+            </div>
+        </section>
+        
+        <!-- Nosso Método (Timeline) Section -->
+        <section id="nosso-metodo" class="py-16 md:py-24">
+            <div class="container mx-auto px-6">
+                 <div class="text-center">
+                    <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Nosso Método de Trabalho</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">Uma parceria consultiva para encontrar a solução perfeita.</p>
+                </div>
+                <div class="mt-12 max-w-3xl mx-auto space-y-8">
+                    <!-- Timeline Item -->
+                    <div class="flex items-start gap-4">
+                        <div class="icon flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 18.5a9 9 0 1 0-9 0"/><path d="M12 2v8.5"/><path d="M12 12v10"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">Começamos por ouvir você</h4>
+                            <p class="text-gray-600">Briefing personalizado com o RH ou gestor para entender o cenário e os desafios da sua empresa.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="icon flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.5 21.5-3.3-3.3"/><path d="M16.5 13.5a3 3 0 1 0-3-3 3 3 0 0 0 3 3z"/><path d="M10.5 5.5a8 8 0 1 0 8 8"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">Analisamos as oportunidades</h4>
+                            <p class="text-gray-600">Cruzamos dados da folha salarial, estrutura da equipe, benefícios existentes e riscos legais, como a NR1.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="icon flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4"/><path d="M20 18v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><path d="M4 12H2"/><path d="m18 5-1.4-1.4"/><path d="m6 5 1.4-1.4"/><circle cx="12" cy="8" r="2"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">Desenhamos a solução sob medida</h4>
+                            <p class="text-gray-600">Comparamos as melhores operadoras e seguradoras, e criamos um pacote ajustado à cultura e ao orçamento da empresa.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-4">
+                        <div class="icon flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-lg">Implantação com cuidado</h4>
+                            <p class="text-gray-600">Cuidamos de toda a implementação do novo benefício, garantindo uma transição suave para a sua equipa.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
+        <!-- Soluções Estratégicas Section -->
         <section id="solucoes" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center mb-16">
                      <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900">Nossas Soluções Estratégicas</h2>
                 </div>
                 
+                <!-- Solução 1: Seguro de Vida com Imagem -->
                 <div class="grid md:grid-cols-2 gap-8 lg:gap-16 items-center mb-20">
                     <div class="order-2 md:order-1">
                         <h3 class="text-2xl font-bold text-gray-900">Seguro de Vida Flexível</h3>
@@ -138,7 +179,8 @@
                     </div>
                 </div>
 
-                <div class="grid md:grid-cols-2 gap-8 lg:gap-16 items-center">
+                <!-- Solução 2: Plano de Saúde com Imagem -->
+                 <div class="grid md:grid-cols-2 gap-8 lg:gap-16 items-center">
                     <div>
                         <img src="imagem-telemedicina.png" alt="Pessoa utilizando serviços de telemedicina" class="rounded-xl shadow-lg w-full h-auto object-cover">
                     </div>
@@ -156,6 +198,7 @@
         </section>
 
 
+        <!-- Seção de Depoimentos -->
         <section id="depoimentos" class="py-16 md:py-24 bg-gray-100">
             <div class="container mx-auto px-6">
                 <div class="text-center">
@@ -175,6 +218,7 @@
             </div>
         </section>
 
+        <!-- Seção Detalhada: Seguro de Vida -->
         <section id="seguro-vida-details" class="py-16 md:py-24 bg-white">
             <div class="container mx-auto px-6">
                 <div class="text-center">
@@ -232,6 +276,7 @@
         </section>
 
 
+        <!-- Seção Detalhada: Plano de Saúde Porto -->
         <section id="plano-saude-details" class="py-16 md:py-24 bg-gray-100">
             <div class="container mx-auto px-6">
                 <div class="text-center">
@@ -285,6 +330,7 @@
             </div>
         </section>
 
+        <!-- Final CTA Section -->
         <section id="contato-final" class="py-16 md:py-24 bg-capri-blue">
             <div class="container mx-auto px-6 text-center text-white">
                 <h2 class="text-3xl md:text-4xl font-extrabold">Quero saber como isto funciona para a minha empresa.</h2>
@@ -299,6 +345,7 @@
 
     </main>
 
+    <!-- Footer / Contato -->
     <footer id="contato" class="bg-gray-800 text-white">
         <div class="container mx-auto px-6 py-12">
             <div class="text-center mb-8">
